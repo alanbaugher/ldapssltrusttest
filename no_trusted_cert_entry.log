@@ -1,0 +1,184 @@
+javax.net.ssl|FINE|1A|http-nio-18080-exec-1|2025-07-01 10:42:58.378 CDT|X509TrustManagerImpl.java:79|adding as trusted certificates
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.429 CDT|HandshakeContext.java:297|Ignore unsupported cipher suite: TLS_AES_256_GCM_SHA384 for TLS12
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.430 CDT|HandshakeContext.java:297|Ignore unsupported cipher suite: TLS_AES_128_GCM_SHA256 for TLS12
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.478 CDT|SSLExtensions.java:260|Ignore, context unavailable extension: status_request
+javax.net.ssl|WARNING|1B|Thread-5|2025-07-01 10:42:58.483 CDT|SignatureScheme.java:297|Signature algorithm, ed25519, is not supported by the underlying providers
+javax.net.ssl|WARNING|1B|Thread-5|2025-07-01 10:42:58.484 CDT|SignatureScheme.java:297|Signature algorithm, ed448, is not supported by the underlying providers
+javax.net.ssl|ALL|1B|Thread-5|2025-07-01 10:42:58.490 CDT|SignatureScheme.java:373|Ignore unsupported signature scheme: ed25519
+javax.net.ssl|ALL|1B|Thread-5|2025-07-01 10:42:58.491 CDT|SignatureScheme.java:373|Ignore unsupported signature scheme: ed448
+javax.net.ssl|ALL|1B|Thread-5|2025-07-01 10:42:58.492 CDT|SignatureScheme.java:373|Ignore unsupported signature scheme: ecdsa_sha224
+javax.net.ssl|ALL|1B|Thread-5|2025-07-01 10:42:58.494 CDT|SignatureScheme.java:373|Ignore unsupported signature scheme: rsa_sha224
+javax.net.ssl|ALL|1B|Thread-5|2025-07-01 10:42:58.496 CDT|SignatureScheme.java:373|Ignore unsupported signature scheme: dsa_sha224
+javax.net.ssl|ALL|1B|Thread-5|2025-07-01 10:42:58.498 CDT|SignatureScheme.java:393|Ignore disabled signature scheme: rsa_md5
+javax.net.ssl|INFO|1B|Thread-5|2025-07-01 10:42:58.500 CDT|AlpnExtension.java:178|No available application protocols
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.505 CDT|SSLExtensions.java:260|Ignore, context unavailable extension: application_layer_protocol_negotiation
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.507 CDT|SSLExtensions.java:260|Ignore, context unavailable extension: status_request_v2
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.509 CDT|SSLExtensions.java:260|Ignore, context unavailable extension: cookie
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.548 CDT|SSLExtensions.java:260|Ignore, context unavailable extension: renegotiation_info
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.549 CDT|PreSharedKeyExtension.java:631|No session to resume.
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.556 CDT|SSLExtensions.java:260|Ignore, context unavailable extension: pre_shared_key
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.565 CDT|ClientHello.java:564|Produced ClientHello handshake message (
+"ClientHello": {
+  "client version"      : "TLSv1.2",
+  "random"              : "0F 5F 40 C3 22 D2 45 02 19 68 44 C0 D0 D9 CF DB E6 DE AC AF 28 B6 DD C5 EA 4B 65 BE A7 38 62 6B",
+  "session id"          : "48 A7 81 5A 09 71 CE 78 34 8F 8E 3D 32 C2 F0 77 84 83 84 3E 2C 50 D7 0B C5 97 F7 02 E3 49 D0 76",
+  "cipher suites"       : "[TLS_AES_256_GCM_SHA384(0x1302), TLS_AES_128_GCM_SHA256(0x1301), TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384(0xC02C), TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256(0xC02B), TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384(0xC030), TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256(0xC02F), TLS_DHE_RSA_WITH_AES_256_GCM_SHA384(0x009F), TLS_DHE_DSS_WITH_AES_256_GCM_SHA384(0x00A3), TLS_DHE_RSA_WITH_AES_128_GCM_SHA256(0x009E), TLS_DHE_DSS_WITH_AES_128_GCM_SHA256(0x00A2), TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384(0xC02E), TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384(0xC032), TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256(0xC02D), TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256(0xC031), TLS_RSA_WITH_AES_256_GCM_SHA384(0x009D), TLS_RSA_WITH_AES_128_GCM_SHA256(0x009C), TLS_EMPTY_RENEGOTIATION_INFO_SCSV(0x00FF)]",
+  "compression methods" : "00",
+  "extensions"          : [
+    "server_name (0)": {
+      type=host_name (0), value=vapp2025.anapartner.dev
+    },
+    "supported_groups (10)": {
+      "versions": [secp256r1, secp384r1, secp521r1, ffdhe2048, ffdhe3072, ffdhe4096, ffdhe6144, ffdhe8192]
+    },
+    "ec_point_formats (11)": {
+      "formats": [uncompressed]
+    },
+    "signature_algorithms (13)": {
+      "signature schemes": [ecdsa_secp256r1_sha256, ecdsa_secp384r1_sha384, ecdsa_secp521r1_sha512, rsa_pss_rsae_sha256, rsa_pss_rsae_sha384, rsa_pss_rsae_sha512, rsa_pss_pss_sha256, rsa_pss_pss_sha384, rsa_pss_pss_sha512, rsa_pkcs1_sha256, rsa_pkcs1_sha384, rsa_pkcs1_sha512, dsa_sha256, ecdsa_sha1, rsa_pkcs1_sha1, dsa_sha1]
+    },
+    "signature_algorithms_cert (50)": {
+      "signature schemes": [ecdsa_secp256r1_sha256, ecdsa_secp384r1_sha384, ecdsa_secp521r1_sha512, rsa_pss_rsae_sha256, rsa_pss_rsae_sha384, rsa_pss_rsae_sha512, rsa_pss_pss_sha256, rsa_pss_pss_sha384, rsa_pss_pss_sha512, rsa_pkcs1_sha256, rsa_pkcs1_sha384, rsa_pkcs1_sha512, dsa_sha256, ecdsa_sha1, rsa_pkcs1_sha1, dsa_sha1]
+    },
+    "extended_master_secret (23)": {
+      <empty>
+    },
+    "supported_versions (43)": {
+      "versions": [TLSv1.3, TLSv1.2]
+    },
+    "psk_key_exchange_modes (45)": {
+      "ke_modes": [psk_dhe_ke]
+    },
+    "key_share (51)": {
+      "client_shares": [
+        {
+          "named group": secp256r1
+          "key_exchange": {
+            0000: 04 73 66 06 E2 8D 36 81   96 AE ED 43 74 B7 96 81  .sf...6....Ct...
+            0010: F2 BA 58 01 29 00 8F 54   D4 94 1E 5E F4 E7 6D 16  ..X.)..T...^..m.
+            0020: E0 F1 20 25 99 35 00 CE   5E 63 6F 16 2D 7B DB A6  .. %.5..^co.-...
+            0030: 8D 2C 83 97 BC 2C D1 10   C9 BB D5 A5 AA 09 C1 71  .,...,.........q
+            0040: 91
+          }
+        },
+      ]
+    }
+  ]
+}
+)
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.594 CDT|ServerHello.java:863|Consuming ServerHello handshake message (
+"ServerHello": {
+  "server version"      : "TLSv1.2",
+  "random"              : "A3 54 CB 6E A4 9A FB 7A 29 A5 59 8F 31 D9 78 E6 67 46 E4 29 F2 DF 29 1E 60 88 8D 88 58 7C 34 DA",
+  "session id"          : "8E AB BA A5 F5 73 34 D3 F8 60 A4 71 CA B3 CF 3A 03 6B D9 6D CD A9 48 F1 CB B5 E0 F0 DC 4B 89 13",
+  "cipher suite"        : "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256(0xC02F)",
+  "compression methods" : "00",
+  "extensions"          : [
+    "renegotiation_info (65,281)": {
+      "renegotiated connection": [<no renegotiated connection>]
+    },
+    "ec_point_formats (11)": {
+      "formats": [uncompressed, ansiX962_compressed_prime, ansiX962_compressed_char2]
+    }
+  ]
+}
+)
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.595 CDT|SSLExtensions.java:173|Ignore unavailable extension: supported_versions
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.596 CDT|ServerHello.java:955|Negotiated protocol version: TLSv1.2
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.606 CDT|SSLExtensions.java:192|Consumed extension: renegotiation_info
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.606 CDT|SSLExtensions.java:173|Ignore unavailable extension: server_name
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.607 CDT|SSLExtensions.java:173|Ignore unavailable extension: max_fragment_length
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.608 CDT|SSLExtensions.java:173|Ignore unavailable extension: status_request
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.609 CDT|SSLExtensions.java:192|Consumed extension: ec_point_formats
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.610 CDT|SSLExtensions.java:173|Ignore unavailable extension: status_request_v2
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.611 CDT|SSLExtensions.java:163|Ignore unsupported extension: supported_versions
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.612 CDT|SSLExtensions.java:163|Ignore unsupported extension: key_share
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.615 CDT|SSLExtensions.java:192|Consumed extension: renegotiation_info
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.621 CDT|SSLExtensions.java:163|Ignore unsupported extension: pre_shared_key
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.622 CDT|SSLExtensions.java:207|Ignore unavailable extension: server_name
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.624 CDT|SSLExtensions.java:207|Ignore unavailable extension: max_fragment_length
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.625 CDT|SSLExtensions.java:207|Ignore unavailable extension: status_request
+javax.net.ssl|WARNING|1B|Thread-5|2025-07-01 10:42:58.626 CDT|SSLExtensions.java:215|Ignore impact of unsupported extension: ec_point_formats
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.628 CDT|SSLExtensions.java:207|Ignore unavailable extension: application_layer_protocol_negotiation
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.629 CDT|SSLExtensions.java:207|Ignore unavailable extension: status_request_v2
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.635 CDT|SSLExtensions.java:207|Ignore unavailable extension: extended_master_secret
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.636 CDT|SSLExtensions.java:207|Ignore unavailable extension: supported_versions
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.637 CDT|SSLExtensions.java:207|Ignore unavailable extension: key_share
+javax.net.ssl|WARNING|1B|Thread-5|2025-07-01 10:42:58.637 CDT|SSLExtensions.java:215|Ignore impact of unsupported extension: renegotiation_info
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.639 CDT|SSLExtensions.java:207|Ignore unavailable extension: pre_shared_key
+javax.net.ssl|FINE|1B|Thread-5|2025-07-01 10:42:58.650 CDT|CertificateMessage.java:366|Consuming server Certificate handshake message (
+"Certificates": [
+  "certificate" : {
+    "version"            : "v3",
+    "serial number"      : "01",
+    "signature algorithm": "SHA256withRSA",
+    "issuer"             : "CN=DXCertGenCA, O=DXCertGenPKI, C=AU",
+    "not before"         : "2025-06-26 14:00:19.000 CDT",
+    "not  after"         : "2035-06-24 14:00:19.000 CDT",
+    "subject"            : "CN=dev-UserStore_userstore-01, OU=im, OU=ca, O=com",
+    "subject public key" : "RSA",
+    "extensions"         : [
+      {
+        ObjectId: 2.5.29.19 Criticality=false
+        BasicConstraints:[
+          CA:false
+          PathLen: undefined
+        ]
+      },
+      {
+        ObjectId: 2.5.29.15 Criticality=true
+        KeyUsage [
+          DigitalSignature
+          Key_Encipherment
+          Key_Agreement
+        ]
+      },
+      {
+        ObjectId: 2.5.29.17 Criticality=false
+        SubjectAlternativeName [
+          IPAddress: 192.168.2.21
+          DNSName: vapp2025
+          DNSName: vapp2025
+          DNSName: vapp2025.anapartner.dev
+        ]
+      }
+    ]},
+  "certificate" : {
+    "version"            : "v3",
+    "serial number"      : "00",
+    "signature algorithm": "SHA256withRSA",
+    "issuer"             : "CN=DXCertGenCA, O=DXCertGenPKI, C=AU",
+    "not before"         : "2025-06-26 14:00:18.000 CDT",
+    "not  after"         : "2035-06-24 14:00:18.000 CDT",
+    "subject"            : "CN=DXCertGenCA, O=DXCertGenPKI, C=AU",
+    "subject public key" : "RSA",
+    "extensions"         : [
+      {
+        ObjectId: 2.5.29.19 Criticality=true
+        BasicConstraints:[
+          CA:true
+          PathLen:2147483647
+        ]
+      },
+      {
+        ObjectId: 2.5.29.15 Criticality=true
+        KeyUsage [
+          Key_CertSign
+          Crl_Sign
+        ]
+      },
+      {
+        ObjectId: 2.5.29.17 Criticality=false
+        SubjectAlternativeName [
+          IPAddress: 192.168.2.21
+          DNSName: vapp2025
+          DNSName: vapp2025
+          DNSName: vapp2025.anapartner.dev
+        ]
+      }
+    ]}
+]
+)
+javax.net.ssl|SEVERE|1B|Thread-5|2025-07-01 10:42:58.665 CDT|TransportContext.java:323|Fatal (CERTIFICATE_UNKNOWN): No trusted certificate found (
+"throwable" : {
+  sun.security.validator.ValidatorException: No trusted certificate found

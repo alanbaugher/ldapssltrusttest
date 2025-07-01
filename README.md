@@ -11,3 +11,9 @@ java -Djavax.net.debug=ssl:handshake:verbose:certpath:trustmanager LdapSSLTrustT
 
 
 ![image](https://github.com/user-attachments/assets/d2fdfe63-3235-49fd-965a-6b4108853c55)
+
+
+Attempt to isolate this issue:
+
+
+![image](https://github.com/user-attachments/assets/76e0140d-5221-4f4f-bbe8-8c20c6fa543f)

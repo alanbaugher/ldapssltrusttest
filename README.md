@@ -8,3 +8,6 @@ LDAPTLS_REQCERT=never ldapsearch -d9  -H ldaps://$(hostname):10101 -D 'cn=dsaadm
 /opt/CA/java/bin/javac LdapSSLTrustTest.java
 
 java -Djavax.net.debug=ssl:handshake:verbose:certpath:trustmanager LdapSSLTrustTest
+
+
+![image](https://github.com/user-attachments/assets/d2fdfe63-3235-49fd-965a-6b4108853c55)

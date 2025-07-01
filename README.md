@@ -1,5 +1,5 @@
 # ldapssltrusttest
-Test LDAP SSL Trust via JSP
+Test LDAP SSL Trust via external java or internal JSP page
 
 
 LDAPTLS_REQCERT=never ldapsearch -LLL -H ldaps://$(hostname):10101 -D 'cn=dsaadmin,ou=im,ou=ca,o=com' -w Password01! -s base

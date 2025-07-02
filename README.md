@@ -13,7 +13,7 @@ java -Djavax.net.debug=ssl:handshake:verbose:certpath:trustmanager LdapSSLTrustT
 ![image](https://github.com/user-attachments/assets/d2fdfe63-3235-49fd-965a-6b4108853c55)
 
 
-Attempt to isolate this issue:
+Attempt to isolate this issue within JXweb.    Note that a custom JSP page within the same context, has no issue.
 
 ![image](https://github.com/user-attachments/assets/74ad7f61-7b20-4176-a591-90566c79b112)
 

@@ -19,3 +19,10 @@ Attempt to isolate this issue within JXweb.    Note that a custom JSP page withi
 
 
 ![image](https://github.com/user-attachments/assets/76e0140d-5221-4f4f-bbe8-8c20c6fa543f)
+
+
+Issue appears to be tied to SSL context used in this jar.
+
+C:\Program Files\CA\Directory\dxwebserver\webapps\jxweb\WEB-INF\lib
+
+12/19/2016  01:47 PM           190,748 eTrust_Commons.jar
